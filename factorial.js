@@ -1,6 +1,6 @@
 export function factorial(x) {
     if (x < 0) {
-      throw new RangeError('n must be a non-negative integer');
+      throw new RangeError('x must be a non-negative integer');
     }
     if (x === 0 || x === 1) {
       return 1;
