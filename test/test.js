@@ -19,6 +19,6 @@ describe('factorial function', () => {
   });
 
   it('should throw a RangeError for negative numbers', () => {
-    assert.throws(() => factorial(-1), RangeError, 'n must be a non-negative integer');
+    assert.throws(() => factorial(-1), RangeError, 'x must be a non-negative integer');
   });
 });
